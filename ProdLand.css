@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f9;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background-color: #ffe3ec;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: #e91e63;
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #e91e63;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c2185b;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff0f5;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  color: #c2185b;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.hero-text button {
+  padding: 0.6rem 1.2rem;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.features {
+  background-color: #fce4ec;
+  padding: 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1.5rem;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.feature {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.reviews {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1.5rem;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.review {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff0f5;
+}
+
+.contact h2 {
+  color: #c2185b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.contact a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.contact button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
