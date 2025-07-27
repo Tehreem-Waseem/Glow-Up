@@ -3,10 +3,6 @@
 A simple and elegant **landing page** built using **HTML** and **CSS**.  
 This project was created as a beginner-friendly practice to improve layout and styling skills.
 
-## 📸 Preview
-
-![Glow-Up Screenshot](#)  
-*(Add screenshot later if available)*
 
 ## 🌐 Live Demo
 
